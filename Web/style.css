@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+
+
+.wrapper{
+  position: absolute; /* Относительное позиционирование */
+  width: 1000px; /* Ширина блока div */
+  min-height: 950px; /* Минимальная высота блока */
+  margin-left: -500px; /* Внешний левый отступ. Отрицательное значение означает, что блок выходит за левого края браузера на 500px */
+  left: 50%; /* Позиционирование относительно левого края окна браузера */
+  box-shadow: 0 0 50px rgba(0,0,0,.2);
+
+}
+
+.pusto {
+  display: flex;
+  background-color: #fff;
+ position: absolute;
+}
+
+.logo {
+  z-index: 10;
+  width:  85px;
+  height: 80px;
+  margin-left: 480px;
+}
+
+.home {
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 25px;
+  margin-top: 300px;
+}
+
+
+.menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  background:#303030;
+  height: 40px;
+  width: 100%;
+}
+
+
+
+
+
+  .menu_link {
+    font-weight: 400;
+    margin-right: 3rem;
+  }
+
+  .menu_link:last-child {
+     margin-right: -0px;
+  }
+
+   
+
+
+
+
+nav ul {
+  list-style-type: none;
+  float: right;
+}
+
+nav ul ul {
+display: flex;
+}
+
+li {
+  content: center;
+  margin: 10px 552px;
+  margin-left: -480px;
+}
+
+nav ul li  a {
+color: #fff;
+font-size: 15px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.popup {
+  display: none;
+}
+
+
+.navbar__wrap .menu {
+  display: flex;
+}
+
+
+
+
+
+  .container {
+    margin-right: 5px;
+    height:100%;
+    padding: 50px;
+    margin-top: 0;
+  }
+
+
+.container_2 {
+  height: 300%;
+}
+
+  .col-2-3 {
+    color:aqua;
+    float: right;
+  }
+
+  .container:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    margin-bottom: -1px;
+  }
+
+  
+  .row-one {
+    background: lightblue;
+  }
+  .col-2-3 {
+    width: 65%;
+    float: left;  
+    background: white;
+  }
+
+ .leftimg {
+  float: left;
+  margin: -50px 7px 7px 0;
+  transition: transform .2s;
+  
+ }
+
+
+
+.leftimg:hover {
+  transform: scale(1.2);
+}
+
+
+ .theme {
+  display: inline-block;
+  background: #2a85cf;
+  color: #fff;
+  padding: 15px;
+  margin-left: 80px;
+  padding-right: 15px;
+  margin-top: 150px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+ }
+
+ a.button {
+ 
+  display: inline-block;
+  background: #2a85cf;
+  color: #fff;
+  padding: 15px;
+  margin-left: 50px;
+  padding-right: 15px;
+  margin-top: 90px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+div {
+  margin: 0px;
+  text-align: center;
+}
+
+
+a.button:hover {
+  background-color:#4d0eb1;
+}
+
+.button_2 {
+  display: inline-block;
+  background: #2a85cf;
+  color: #fff;
+  padding: 23px;
+  margin-left: 10px;
+  padding-left: 20px;
+  margin-top: 90px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.button_2:hover {
+  background-color: #4d0eb1;
+}
+
+
+
+.main {
+
+  height: 10%;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+.frame {
+  border: 5px solid #2a85cf;
+  padding: 20px;
+  width: 620px;
+  border-radius: 15px;
+  margin-top: 400px;
+  margin-left: 130px;
+
+}
+
+
+.info {
+  font-size: 25px;
+}
+
+
+.text {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+
+
+
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 30px 0;
+    width: 100%;
+    height: 80px;
+    background-color:rgb(18, 57, 80);
+    color: #fff;
+    text-align: center;
+    
+  }
+    
+@media only screen and (min-width: 400px) and (max-width: 720px) {
+  
+    .wrapper {
+      margin-left: -500px;
+      height: 1038px;
+    }
+  
+    .menu {
+    margin-top: -10px;
+    height: 64px;
+    width: 100%;
+    transition: 0.3s;
+  }
+
+  .menu:active {
+    left: 0;
+  }
+
+   .menu_item {
+    font-size: 12px;
+   }
+
+
+  .menu_item {
+    margin: 1.8rem 0;
+  }
+
+  
+    .logo {
+      z-index: 10;
+      margin-left: -1px;
+      width:60px;
+      height: 56px;
+      margin-top: -2px;
+    }
+  
+    p {
+      font-size: 15px;
+    }
+  
+    nav .menu li  a {
+      color: #fff;
+      font-size: 9px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      }
+  
+      h4 {
+        margin-top: 180px;
+        font-size: 25px;
+       margin-left: 310px;
+       column-count: 2;
+      }
+     
+      .leftimg {
+        margin-left: -400px;
+      }
+
+      .text {
+        margin-top: 7px;
+        margin-left: 10px;
+        font-size: 15px;
+      }
+      
+      .fxo-widget-iframe {
+        background-color: rgba(28,28,28,0);
+      }
+
+     a.button {
+      margin-top: 70px;
+      margin-left: 20px;
+     }
+
+    
+    
+    
+      .footer {
+        top: 1038px;
+      }
+     
+   
+}
+@media only screen and (min-width: 720px) and (max-width: 1400px) {
+  .wrapper {
+    margin-left: -500px;
+    height: 1035px;
+  }
+
+.menu {
+  margin-top: -10px;
+  height: 64px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.menu:active {
+  left: 0;
+}
+
+
+
+
+.menu_item {
+  margin: 1.8rem 0;
+  margin-left: 100px;
+}
+
+
+.menu_link:last-child {
+  margin-right: -8px;
+}
+
+
+
+
+  .logo {
+    z-index: 10;
+    margin-left: -1px;
+    width:60px;
+    height: 56px;
+    margin-top: -2px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  nav .menu li  a {
+    color: #fff;
+    font-size: 10px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+    h4 {
+      margin-top: 180px;
+      font-size: 25px;
+     margin-left: 310px;
+     column-count: 2;
+    }
+   
+    .leftimg {
+      margin-left: -400px;
+    }
+
+    .text {
+      margin-top: 7px;
+      margin-left: 10px;
+      font-size: 15px;
+    }
+    
+    
+
+   a.button {
+    margin-top: 70px;
+    margin-left: 20px;
+   }
+
+  
+  
+  
+    .footer {
+      top: 1038px;
+    }
+}
